@@ -16,7 +16,7 @@ def eat(zwl1,zwl2):
 zwl3 = eat('张文亮','蛋糕')
 
 #默认参数
-def acquiesce(name = '张文亮',word='编程可以改变世界'):
+def acquiesce(name = '张文亮',word='编程可以改变世界vvv'):
     print(name + '—>' + word)
 zwl4 = acquiesce()
 
