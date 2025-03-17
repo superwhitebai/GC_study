@@ -78,17 +78,9 @@ rate1 = float(input('请输入折扣率：'))
 New1 = discount1(old_price1,rate1)
 print('全局变量old_price现在的值是：%.2f' % old_price1)
 print('打折后价格是：%.2f' % New1)
+print('1')
 
-def discount1(price,rate):
-    final_paice1 = price * rate
-    #下面试图修改全局变量的值
-    print('试图在函数外部访问局部变量old_price1的值：%.2f' % old_price1)
-    return final_paice1
-old_price1 = float(input('请输入原价：'))
-rate1 = float(input('请输入折扣率：'))
-New1 = discount1(old_price1,rate1)
-print('全局变量old_price现在的值是：%.2f' % old_price1)
-print('打折后价格是：%.2f' % New1)
+
 
 
 
